@@ -23,6 +23,8 @@ import json
 import sys
 import getopt
 import logging
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../'))
 from shadowsocks.common import to_bytes, to_str, IPNetwork
 from shadowsocks import encrypt
 
